@@ -1,7 +1,7 @@
 package inheritanceDemo;
 
 public class CreditUI {
-	public void CreditCalculate(BaseCreditManager baseCreditManager) {
-		baseCreditManager.Calculate();
+	public void creditCalculate(BaseCreditManager baseCreditManager) {
+		baseCreditManager.calculate();
 	}
 }

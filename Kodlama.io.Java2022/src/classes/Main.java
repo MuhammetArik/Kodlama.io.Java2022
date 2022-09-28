@@ -7,9 +7,9 @@ public class Main {
 		CustomerManager customerManager = new CustomerManager();
 		CustomerManager customerManager2 = new CustomerManager();
 		customerManager = customerManager2;
-		customerManager.Add();
-		customerManager.Delete();
-		customerManager.Update();
+		customerManager.add();
+		customerManager.delete();
+		customerManager.update();
 		
 		//value type
 		int number1 = 10;
